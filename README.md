@@ -32,7 +32,7 @@ There's no API for this challenge, and we're going to try something a little dif
 
 #### **Choose a challenge**
 
-The first is implementing 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern.
+The first challenge is implementing 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern.
 
 #### **Submit your solution as a Pull Request**
 
@@ -44,10 +44,12 @@ Add your code, a README, and a screenshot of the code.
 
 If Golfbot likes it, we'll merge it into master.
 
-We'll add more challenges over time. If you have an idea for a challenge, add an issue.
+We'll add more challenges over time.
 
-## ✨ Some places to looks for inspiration.
+If you have an idea for a challenge, add an issue.
 
-There are active communities dedicated to Code Golf, like [Dwitter](https://www.dwitter.net/) (demos less than 140 characters), [codegolf.stackexchange.com](https://codegolf.stackexchange.com/), and [r/codegolf](https://www.reddit.com/r/codegolf/).
+## ✨ A little inspiration
+
+There are active communities dedicated to Code Golf, like [Dwitter](https://www.dwitter.net/) (demos less than 140 characters), [codegolf.stackexchange.com](https://codegolf.stackexchange.com/), and [r/codegolf](https://www.reddit.com/r/codegolf/). Browse through the posts to see the very clever, and very concise, things you're able to do when dealing with extreme constraints.
 
 More about Golfbot at [noopschallenge.com](https://noopschallenge.com/challenges/golfbot).
