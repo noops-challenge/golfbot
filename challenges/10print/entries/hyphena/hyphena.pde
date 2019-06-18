@@ -22,10 +22,10 @@ void draw()
 {
     // Start 10 PRINT                             ( 24/256)
     float r=random(1);                         //   18
-	if(r<.5)line(posX,posY,posX+20,posY+20);   //   40
+    if(r<.5)line(posX,posY,posX+20,posY+20);   //   40
     else line(posX,posY+20,posX+20,posY);      //   37
-	posX+=20;                                  //    9
-	if(posX>=width){posY+=20;posX=0;}          //   33
+    posX+=20;                                  //    9
+    if(posX>=width){posY+=20;posX=0;}          //   33
     if(posY>height)noLoop();                   //   24
     // End 10 PRINT                               (185/256);
 }
