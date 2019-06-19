@@ -30,15 +30,19 @@ We love this program so much we've incorporated it into the design of Meet the N
 
 There's no API for this challenge, and we're going to try something a little different. We're inviting you to submit solutions to the challenges as pull requests.
 
-#### **Choose a challenge**
+## **Choose a challenge**
 
-The first challenge is implementing 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern.
+#### 10Print
+Implement 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern.
 
-#### **Submit your solution as a Pull Request**
+#### Hexcode
+Create a hexcode generator that would (eventually) emit all 16,777,216 hexcodes in less than 256 characters.
 
-In the repo we have a challenges folder, with "10print" inside it.
+## **Submit your solution as a Pull Request**
 
-In your pull request, create a new folder with your GitHub username, like so: `/challenges/10print/entries/{github-username}`
+In the repo we have a challenges folder, each with subfolders named after the challenges.
+
+For your pull request, create a new folder with your GitHub username, like so: `/challenges/10print/entries/{github-username}`
 
 Add your code, a README, and a screenshot of the code.
 
@@ -46,7 +50,7 @@ If Golfbot likes it, we'll merge it into master.
 
 We'll add more challenges over time.
 
-If you have an idea for a challenge, add an issue.
+If you have an idea for a challenge, please add an issue.
 
 ## ✨ A little inspiration
 
