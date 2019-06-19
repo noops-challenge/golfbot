@@ -38,6 +38,9 @@ Implement 10print in the language of your choice, in less than 256 characters. R
 #### Hexcode
 Create a hexcode generator that would (eventually) emit all 16,777,216 hexcodes in less than 256 characters.
 
+#### Conway's Game of Life
+Write an implementation of [Conway's Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in the fewest characters possible.
+
 ## **Submit your solution as a Pull Request**
 
 In the repo we have a challenges folder, each with subfolders named after the challenges.
