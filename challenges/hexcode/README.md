@@ -6,6 +6,6 @@ The lovely thing about hexcodes is that they're only six characters. How concise
 
 ### Instructions
 
-Write a hexcode generator that, given enough iterations, is capable of generating all 16,777,216 possibilities, in less than 256 characters.
+Write a hexcode generator that, given enough iterations, is capable of generating all 16,777,216 possibilities of *valid* hexcodes, in less than 256 characters.
 
-Running the program in the terminal or console should a valid hexcode.
+Running the program in the terminal or console should a *valid* hexcode every time.
