@@ -22,3 +22,4 @@ The output should be:
 ]
 ```
 
+Can't get enough of Conway's Life? Try playing with our [Automatabot challenge](https://github.com/noops-challenge/automatabot)
