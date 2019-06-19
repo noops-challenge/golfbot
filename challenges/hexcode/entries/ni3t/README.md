@@ -1,0 +1,3 @@
+```
+$> ruby hexcode.rb
+```
