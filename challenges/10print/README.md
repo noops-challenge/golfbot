@@ -1,6 +1,6 @@
-## 10Print challenge
+## 10Print Golfbot challenge
 
-Looking for inspiration? [10Print](https://10print.org/) is a lovely little program that's just 38 characters long but generates infinite possibilities. Here's the code in Commodore 64 BASIC:
+[10Print](https://10print.org/) is a lovely little program that's just 38 characters long but generates infinite possibilities. Here's the code in Commodore 64 BASIC:
 
 ```10 PRINT CHR$(205.5+RND(1)); : GOTO 10```
 
