@@ -45,4 +45,4 @@ Once that is done we just call `main` again to start the process anew!
 
 ## Screenshot
 
-![Screenshot](./Output.tiff)
+![Screenshot](./Output.png)
