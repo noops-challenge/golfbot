@@ -1,0 +1,1 @@
+main(){while(write(1,&"/\\"[rand()&1],1));}
