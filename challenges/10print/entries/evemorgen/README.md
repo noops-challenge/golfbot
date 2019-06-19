@@ -12,5 +12,5 @@ from random import*
 while 1:print choice(['/','\\']),
 ```
 
-## Explenation
+## Explanation
 Python2 saves you around 6-7 bytes on print statement (no need for `end=''` unlike in Python3). Mind the trailing comma in a print, it replaces newline with space.
