@@ -1,0 +1,1 @@
+for(;;)process.stdout.write('╲╱'[Math.random()*2|0])
