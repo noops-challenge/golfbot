@@ -1,0 +1,1 @@
+while(true)printf("%c",47+45*scala.util.Random.nextInt(2))
