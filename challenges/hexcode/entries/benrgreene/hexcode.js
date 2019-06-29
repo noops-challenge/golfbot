@@ -1,0 +1,1 @@
+let i=0;while(i<16777216){let a=i.toString(16);console.log(`#${'0'.repeat(6-a.length)}${a}`);i++}

@@ -1,0 +1,1 @@
+while(1){process.stdout.write(Math.random() > .5 ? '\\' : '/')}
