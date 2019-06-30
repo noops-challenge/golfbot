@@ -20,3 +20,15 @@ a75779
 % wc -c src/main.rs
       97 src/main.rs
 ```
+
+# C++ solution
+```
+% clang++ -std=c++17 hexcode.cc
+% ./a.out
+ba9c7e
+% ./a.out
+7fb011
+
+% wc -c hexcode.cc
+     178 hexcode.cc
+```
