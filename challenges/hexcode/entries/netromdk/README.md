@@ -32,3 +32,15 @@ ba9c7e
 % wc -c hexcode.cc
      178 hexcode.cc
 ```
+
+# C solution
+```
+% clang hexcode.c
+% ./a.out
+171f9c
+% ./a.out
+d4f969
+
+% wc -c hexcode.c
+     149 hexcode.c
+```
