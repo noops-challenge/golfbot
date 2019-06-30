@@ -8,3 +8,15 @@
 % wc -c hexcode.py
       59 hexcode.py
 ```
+
+# Rust solution
+```
+% cd rust_hexcode
+% cargo run -q
+a75779
+% cargo run -q
+57fa39
+
+% wc -c src/main.rs
+      97 src/main.rs
+```

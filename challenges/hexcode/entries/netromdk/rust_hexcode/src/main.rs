@@ -1,0 +1,1 @@
+use rand::{thread_rng,Rng};fn main(){println!("{:06x}",thread_rng().gen_range(0,256_u64.pow(3)))}

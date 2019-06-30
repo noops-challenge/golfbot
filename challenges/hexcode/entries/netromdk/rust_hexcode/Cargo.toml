@@ -1,0 +1,8 @@
+[package]
+name = "rust_hexcode"
+version = "0.1.0"
+authors = ["Morten Kristensen <me@mortens.dev>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.0"
