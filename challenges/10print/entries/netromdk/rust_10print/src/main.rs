@@ -1,0 +1,1 @@
+use rand::seq::SliceRandom;fn main(){loop{print!("{}",&['/','\\'].choose(&mut rand::thread_rng()).unwrap());}}
