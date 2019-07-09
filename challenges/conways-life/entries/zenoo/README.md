@@ -5,6 +5,9 @@
 Open [`test.html`](test.html) in your browser.  
 Every time you refresh the page, it generates another random seed.
 
+#### Screenshot 
+![Screenshot](conways-life.gif)
+
 ________
 
 #### Notes

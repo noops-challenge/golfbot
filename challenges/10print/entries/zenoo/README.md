@@ -22,4 +22,3 @@ ________
 #### Notes
 
 I wonder if there would be a shorter way to loop other than the basic `for`.
-
