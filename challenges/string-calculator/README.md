@@ -8,7 +8,6 @@ In the language of your choosing, and in as few characters as possible, write a 
 
 The set of operations are: `plus`, `minus`, `times`, `divided by`.
 
-
 ### Easy Set
 Numbers are between 1 and 9.
 
