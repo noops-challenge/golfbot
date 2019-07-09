@@ -44,6 +44,9 @@ Write an implementation of [Conway's Life](https://en.wikipedia.org/wiki/Conway%
 #### Roman Numerals
 Generate a correct set of Roman numerals from 1-3,999 ([entries](./challenges/roman-numerals/entries))
 
+#### String Calculator
+Write a program that solves written math problems like "six minus three minus five times nine divided by five plus nine plus two." ([entries](./challenges/string-calculator/entries))
+
 #### Wordsort
 Given a set of words, return an array with two values: number of consonants and number of vowels. Looking for more of a challenge? Find the syllables, words within a word, or sort a set of words by number of unique characters. ([entries](./challenges/wordsort/entries))
 
