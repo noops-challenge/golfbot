@@ -16,6 +16,10 @@ node hexcode.js
 Copy the content of [`hexcode.js`](hexcode.js) in your console and press enter.
 **
 
+#### Screenshot
+
+![Screenshot](hexcode.png)
+
 
 ________
 

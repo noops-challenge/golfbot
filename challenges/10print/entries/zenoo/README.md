@@ -14,6 +14,9 @@ Run
 node 10print.js
 ```
 
+#### Screenshot 
+![Screenshot](10print.png)
+
 ________
 
 #### Notes
