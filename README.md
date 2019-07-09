@@ -33,16 +33,19 @@ There's no API for this challenge, and we're going to try something a little dif
 ## **Choose a challenge**
 
 #### 10print
-Implement 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern.
+Implement 10print in the language of your choice, in less than 256 characters. Running the program in the terminal or console should yield the pattern. ([entries](./challenges/10print/entries))
 
 #### Hexcode
-Create a hexcode generator that would (eventually) emit all 16,777,216 hexcodes in less than 256 characters.
+Create a hexcode generator that would (eventually) emit all 16,777,216 hexcodes in less than 256 characters. ([entries](./challenges/hexcode/entries))
 
 #### Conway's Game of Life
-Write an implementation of [Conway's Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in the fewest characters possible.
+Write an implementation of [Conway's Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in the fewest characters possible. ([entries](./challenges/10print/entries))
+
+#### Roman Numerals
+Generate a correct set of Roman numerals from 1-3,999 ([entries](./challenges/roman-numerals/entries))
 
 #### Wordsort
-Given a set of words, return an array with two values: number of consonants and number of vowels. Looking for more of a challenge? Find the syllables, words within a word, or sort a set of words by number of unique characters.
+Given a set of words, return an array with two values: number of consonants and number of vowels. Looking for more of a challenge? Find the syllables, words within a word, or sort a set of words by number of unique characters. ([entries](./challenges/wordsort/entries))
 
 ## **Submit your solution as a Pull Request**
 
