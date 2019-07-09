@@ -1,0 +1,1 @@
+for(i=1<<24;i--;)console.log('#'+i.toString(16).padStart(6,0))
