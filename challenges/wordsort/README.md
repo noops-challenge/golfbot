@@ -4,11 +4,15 @@ Our [Wordbot](https://github.com/noops-challenge/wordbot) delivers sets of words
 
 ### Instructions
 
-In the language of your choice, and in the fewest number of characters, write a function returns an array with two values: number of vowels and number of consonants in a set of words. For the purposes of this challenge, vowels are a,e,i,o, and u. Numbers and punctuation count as neither vowels nor consonants.
+In the language of your choice, and in the fewest number of characters, write a function returns an array with two values: number of vowels and number of consonants in a set of words. 
+
+For this challenge, vowels are *only* `a`,`e`,`i`,`o`, and `u`. Numbers and punctuation count as neither vowels nor consonants.
 
 Your function should accept an array of words as an argument; the code necessary load the set of words does not count against your code length.
 
 To acquire a set of words, access: https://api.noopschallenge.com/wordbot?count=1000
+
+[Read the Wordbot API documentation](https://github.com/noops-challenge/wordbot/blob/master/API.md)
 
 Example code (JavaScript):
 
@@ -30,6 +34,6 @@ fetch('https://api.noopschallenge.com/wordbot?count=1000')
 
 
 ### Advanced Challenges
-- Count number of syllables
+- Count number of syllables.
 - Using a dictionary, find all possible words within a word. Tip: on OSX, a dictionary is available at ` /usr/share/dict/words`
 - Using the Wordbot API, identify if any words are entirely contained by another word in the request set.
