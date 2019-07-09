@@ -14,8 +14,12 @@ Run
 node 10print.js
 ```
 
+#### Screenshot 
+![Screenshot](10print.png)
+
 ________
 
 #### Notes
 
 I wonder if there would be a shorter way to loop other than the basic `for`.
+
