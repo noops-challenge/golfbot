@@ -1,0 +1,1 @@
+for(t='',i=1e5;i--;)t+='\\/'[~~(2*Math.random())];console.log(t)
