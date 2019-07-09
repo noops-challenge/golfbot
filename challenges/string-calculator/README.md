@@ -8,6 +8,8 @@ In the language of your choosing, and in as few characters as possible, write a 
 
 The set of operations are: `plus`, `minus`, `times`, `divided by`.
 
+Note that multiplication and division have higher precedence than addition and subtraction.
+
 ### Easy Set
 Numbers are between 1 and 9.
 
