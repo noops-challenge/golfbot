@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conways Life | @Zenoo</title>
+    <style>
+        #conway{
+            border-collapse: collapse;
+        }
+
+        #conway td{
+            border: 1px solid black;
+        }
+
+        #conway td.alive{
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <table id="conway"></table>
+    <script>
+        const conway = d => d.map((r,a)=>r.map((r,f)=>{for(n=0,k=3;k--;)for(m=3;m--;)1==k&&1==m||d[a+k-1]&&d[a+k-1][f+m-1]&&n++;return r?n<2?0:n>1&&n<4?1:0:3==n?1:0}));
+
+        const refreshTable = data => {
+            document.getElementById('conway').innerHTML = conway(data).map(l => `
+                <tr>${l.map(c => `<td ${c ? 'class="alive"' : ''}></td>`).join('')}</tr>
+            `).join('');
+        };
+
+        // Generate random data each page load
+        let data = new Array(100).fill(new Array(100).fill(0)).map(l => l.map(c => ~~(Math.random()*2)));
+
+        refreshTable(data);
+
+        let interval = setInterval(() => {
+            data = conway(data);
+            refreshTable(data);
+        }, 50);
+
+
+    </script>
+</body>
+</html>
