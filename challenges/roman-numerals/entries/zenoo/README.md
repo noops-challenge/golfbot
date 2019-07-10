@@ -1,4 +1,4 @@
-# Javascript (Browser & NodeJS) - 206 chars
+# Javascript (Browser & NodeJS) - 205 chars
 
 ### Demo
 
