@@ -1,4 +1,4 @@
-# Javascript - 260 chars
+# Javascript
 
 ### Demo
 
