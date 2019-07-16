@@ -1,0 +1,1 @@
+package main;import(."fmt";."crypto/rand");func main(){n:=make([]byte,3);Read(n);Printf("%x",n)}
