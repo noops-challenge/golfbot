@@ -21,4 +21,4 @@ $ wc -c hex.go
 
 ## Screenshot
 
-[hex.go screenshot](screenshot.png)
+![hex.go screenshot](screenshot.png)
