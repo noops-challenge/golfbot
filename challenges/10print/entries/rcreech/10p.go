@@ -1,0 +1,1 @@
+package main;import(."fmt";."math/rand");func main(){for{Printf("%c",'╱'+Intn(2))}}
