@@ -1,0 +1,36 @@
+#=========================================#
+# HEXPRINT in Extended Brainfuck Type III #
+#               By Max1Truc               #
+#=========================================#
+
+#
+  cell 0 = 10 ("A" in hex)
+  Change it to whatever you want
+  Or remove this part to print the current
+  cell in use in another program
+#
+0+++++ +++++
+
+# storage = cell 0 #
+$
+
+# cell 1 = 48 ("0" in ascii) #
+>)3<
+
+# If not cell 0 between 0 and 9 (inclusive) : #
+[-[-[-[-[-[-[-[-[-[
+  # Increase cell 1 by 7 #
+  >+++++ ++
+
+  # And quit with cell 0 by setting it to 0 #
+  <0
+]]]]]]]]]]
+
+# Reset cell 0 using storage #
+!
+
+# Increment cell 1 with content of cell 0 (storage) #
+>=<
+
+# Print cell 1 and remove it #
+>.(<

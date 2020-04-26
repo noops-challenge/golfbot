@@ -1,0 +1,28 @@
+#=========================================#
+# HEXCODES in Extended Brainfuck Type III #
+#               By Max1Truc               #
+#=========================================#
+
+# Main loop #
+1[-> 1[-> 1[-> 1[-> 1[-> 1[->
+            # Set a reference cell to minus 1 to know where to stop printing hex #
+            -<
+
+            # Print a hash #
+            )2+++.(
+
+            # Go to first "decreasing cell" #
+            <<<<<
+
+            # For each "decreasing cell" until the reference cell #
+            +[-
+              # Print its value in hex (minified from hexprint (dot) bf) #
+              $>)3<[-[-[-[-[-[-[-[-[-[>+++++++<0]]]]]]]]]]!>=.(<
+
+              # Go to next decreasing cell #
+              >
+            +]
+
+            # Print newline #
+            )1------.(
+<] <] <] <] <] <]
