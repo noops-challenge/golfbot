@@ -4,21 +4,19 @@ cell 0 = 10 ("A" in hex)
   cell in use in another program
 [-]+++++ +++++
 
-
+cell 2 = cell 0
+But we use cell 1 as a temporary one
+[->+>+<<]
+>[-<+>]<
 
 cell 1 = 48 ("0" in ascii)
->[-]
+>
 +++++ +++++
 +++++ +++++
 +++++ +++++
 +++++ +++++
 +++++ +++
 <
-
-cell 2 = cell 0
-But we use cell 3 as a temporary one
-[->>+>+<<<]
->>>[-<<<+>>>]<<<
 
 If not cell 2 between 0 and 9 (inclusive) :
 >>
@@ -41,4 +39,4 @@ Dump cell 2 to cell 0
 >>[-<<+>>]<<
 
 Print cell 1
->.<
+>.[-]<
