@@ -1,4 +1,4 @@
-# All hex codes in 114 bytes, Extended Brainfuck Type III, by Max1Truc
+# All hex codes in 114 bytes of Extended Brainfuck Type III, by Max1Truc
 
 Using plain brainfuck, it was really difficult to limit the code to 256 characters, so I used [Extended Brainfuck](https://esolangs.org/wiki/Extended_Brainfuck) (Types I + II + III).
 
