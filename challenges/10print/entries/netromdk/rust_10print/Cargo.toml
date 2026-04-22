@@ -5,4 +5,4 @@ authors = ["Morten Kristensen <me@mortens.dev>"]
 edition = "2018"
 
 [dependencies]
-rand = "0.7.0"
+rand = "0.8.6"
